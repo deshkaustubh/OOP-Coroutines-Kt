@@ -11,3 +11,16 @@ they are -
  */
 
 
+class ConstructorSyntax  private constructor(
+    var integer : Int,
+    var strings : String
+) {
+    val numbersAre = integer
+}
+
+class IfNoVisibilityModifier (
+    var integer : Int,
+    var strings : String
+) {
+    val numbersAre = integer
+}
